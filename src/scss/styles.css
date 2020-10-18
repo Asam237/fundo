@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
+
+.container {
+  width: 1024px;
+  min-width: 85%;
+  margin: 0 auto; }
+
+html,
+#root,
+.site {
+  margin: 0;
+  padding: 0;
+  background: #F2E1DA; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+h2 {
+  font-weight: bold;
+  font-size: 4.5em;
+  color: #915242; }
+
+h4 {
+  font-weight: 300;
+  font-size: 3em;
+  color: #905A42; }
+
+/* Components */
+.site-header {
+  padding: 3em 0; }
+  .site-header .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .site-header .header-nav .nav-logo {
+      color: #915242;
+      font-weight: bold;
+      font-size: 1.6em; }
+    .site-header .header-nav .nav-list li {
+      display: inline-block;
+      padding: 0 14px;
+      font-size: 14px;
+      font-weight: 600; }
+      .site-header .header-nav .nav-list li a {
+        color: #905A42; }
+      .site-header .header-nav .nav-list li button {
+        border-radius: 12px;
+        background: #915242;
+        padding: 4px 14px;
+        font-size: 13px;
+        border: none;
+        color: #fff;
+        font-weight: 500; }
+
+.site-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .site-main .main-section__text,
+  .site-main .main-section__pic {
+    vertical-align: top;
+    width: 50%; }
+  .site-main .main-section__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1; }
+    .site-main .main-section__text h2 {
+      max-width: 40px;
+      line-height: .9; }
+    .site-main .main-section__text h4 {
+      margin: 0 0 15px 0; }
+    .site-main .main-section__text p {
+      max-width: 270px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #905A42;
+      font-size: 14px; }
+    .site-main .main-section__text .section-down {
+      padding-top: 8%;
+      display: flex; }
+      .site-main .main-section__text .section-down img {
+        width: 120px; }
+      .site-main .main-section__text .section-down .down-playstore {
+        margin-left: 15px; }
+  .site-main .main-section__picture {
+    width: 50%;
+    flex: flex;
+    flex-grow: 1; }
+    .site-main .main-section__picture img {
+      height: auto;
+      width: 95%; }
+
+/*# sourceMappingURL=styles.css.map */
